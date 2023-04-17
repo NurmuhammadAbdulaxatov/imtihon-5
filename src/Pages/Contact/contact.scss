@@ -1,0 +1,44 @@
+.contact {
+  display: flex;
+
+  .map {
+    padding: 13px;
+    display: flex;
+    max-width: 70%;
+    color: black;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: white;
+
+    h2 {
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .geo {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .soc-med {
+    padding-left: 200px;
+
+    .icon {
+      padding: 15px;
+      font-size: 40px;
+      margin-top: 40px;
+      text-align: center;
+      border-radius: 22px;
+      background-color: white;
+      box-shadow: 0 0 10px rgb(211, 211, 211);
+    }
+  }
+}
+
+.tel {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 40px 20px 20px 0;
+}

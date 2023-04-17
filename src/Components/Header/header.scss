@@ -1,0 +1,84 @@
+header {
+  top: 0;
+  z-index: 99;
+  width: 100vw;
+  display: flex;
+  margin: 0 auto;
+  position: sticky;
+  padding: 5px 130px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px gray;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .logo-txt {
+    color: black;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icons {
+      i {
+        font-size: 21px;
+        margin-left: 20px;
+      }
+
+      .like {
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+        display: flex;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        transform: translate(30px, -9px);
+        background-color: #ffa542;
+      }
+
+      .korzina {
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+        display: flex;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffa542;
+        transform: translate(75px, -31px);
+      }
+    }
+  }
+
+  .tel {
+    gap: 12px;
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+    transform: translateX(-310px);
+    justify-content: space-between;
+
+    select {
+      all: unset;
+      cursor: pointer;
+    }
+  }
+}
